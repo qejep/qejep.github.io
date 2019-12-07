@@ -2,30 +2,41 @@
 <html>
 <head>
 
-        <style>
-        a:link {color:rgb(202, 4, 119);
-        text-decoration:none}
-        
-        .center a::before {
-  content: '';
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: rgb(202, 4, 119;
-  transition: 0.2s;
-  transform: scaleX(0);
-}
-.center a:hover:before {
-  transform: scaleX(1);
-}
-        </style>   
 </head>
 <body bgcolor="#fdf6e3">
+
+                body  {
+                        font-family: sans-serif;
+                        font-weight: 300;
+                        font-size: 24px;
+                      }
+        .links  {
+                        margin: auto;
+                        width: 80%;
+                      }
+                      a {
+                        text-decoration: none;
+                        position: relative;
+                      }
+                
+                .center a::before {
+          content: '';
+          bottom: 0;
+          left: 0;
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          background-color: rgb(202, 4, 119;
+          transition: 0.2s;
+          transform: scaleX(0);
+        }
+        .center a:hover:before {
+          transform: scaleX(1);
+        } 
+        
         <font face="Arial"> 
                      ----------------------------- <br>
-<a href="index.html">главная</a> ⇢ о проекте <br>
+<p class="center"><a href="index.html">главная</a></p> ⇢ о проекте <br>
 -----------------------------
         <br>
         <br>
