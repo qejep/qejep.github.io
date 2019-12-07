@@ -5,9 +5,21 @@
         <style>
         a:link {color:rgb(202, 4, 119);
         text-decoration:none}
-        a:visited {color:rgb(202, 4, 119);
-        text-decoration:none}
-        a:hover {color:rgb(23, 152, 238)}
+        
+        .center a::before {
+  content: '';
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(202, 4, 119;
+  transition: 0.2s;
+  transform: scaleX(0);
+}
+.center a:hover:before {
+  transform: scaleX(1);
+}
         </style>   
 </head>
 <body bgcolor="#fdf6e3">
